@@ -52,7 +52,7 @@ export async function createOrder() {
           kind: ActionKind.TRANSFER_VALUE,
           valueLedgerId: "0xDaD2363a110309a294973da86c9C3681154394Ff",
           senderId: config.client.provider.accountId,
-          receiverId: config.client.provider.accountId, // Change with another account if you do not want to send to yourself.
+          receiverId: "0xF9196F9f176fd2eF9243E8960817d5FbE63D79aa",
           value: "100"
         },
         {
