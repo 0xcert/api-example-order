@@ -25,7 +25,7 @@ export async function init() {
 
   config.client = new Client({
     provider,
-    apiUrl: "https://api-staging.0xcert.org"
+    apiUrl: "https://api-rinkeby.0xcert.org"
   });
 
   return config.client.init();

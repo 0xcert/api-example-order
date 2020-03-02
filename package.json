@@ -8,8 +8,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@0xcert/client": "1.0.0-beta",
-    "@0xcert/ethereum-metamask-provider": "2.0.0-beta"
+    "@0xcert/client": "1.0.0-beta8",
+    "@0xcert/ethereum-metamask-provider": "2.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
